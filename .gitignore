@@ -1,0 +1,7 @@
+_test/*/*
+_test/*
+_versions/*/*
+_versions/*
+*.swp
+*~
+.DS_Store
