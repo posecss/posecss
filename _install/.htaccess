@@ -1,0 +1,3 @@
+## Url Rewrites
+RewriteEngine on
+RewriteRule ^(.*)\.css pose.php [L,QSA]

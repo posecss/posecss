@@ -1,5 +1,7 @@
 _test/*/*
 _test/*
+css/*/*
+css/*
 _versions/*/*
 _versions/*
 *.swp
