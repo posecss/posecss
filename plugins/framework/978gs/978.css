@@ -1,0 +1,56 @@
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~ E X T R A S / F R A M E W O R K S / 9 7 8 G S / 9 7 8 . C S S ~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/*
+Website: http://www.webdesignerwall.com/tutorials/the-simpler-css-grid/
+*/
+
+.container {
+	width: 978px;
+	margin: 0 auto;
+}
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11 {
+	float: left;
+	margin-left: 30px;
+}
+.grid1 {
+	width: 54px;
+}
+.grid2 {
+	width: 138px;
+}
+.grid3 {
+	width: 222px;
+}
+.grid4 {
+	width: 306px;
+}
+.grid5 {
+	width: 390px;
+}
+.grid6 {
+	width: 474px;
+}
+.grid7 {
+	width: 558px;
+}
+.grid8 {
+	width: 642px;
+}
+.grid9 {
+	width: 726px;
+}
+.grid10 {
+	width: 810px;
+}
+.grid11 {
+	width: 894px;
+}
+.first {
+	margin-left: 0;
+	clear: left;
+}

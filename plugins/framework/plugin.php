@@ -1,6 +1,6 @@
 <?php
 
-$var = '960gs, columns=24, extras=false';
+$var = $_GET['values'];
 $var = str_replace(', ', ',', $var);
 $var = str_replace('= ', '=', $var);
 $var = str_replace(' =', '=', $var);
