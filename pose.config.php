@@ -25,10 +25,10 @@
 // --------------------------------------------------------------------
 
 	// --- POSE DIRECTORY
-	$this->dir='_source'; // --- The directory where pose has been installed (relative to site root)
+	$this->dir='css'; // --- The directory where pose has been installed (relative to site root)
 	
 	// --- POSE DOMAIN
-	$this->domain='http://dev/posecss.com'; // --- Your websites domain names
+	$this->domain='http://yourdomain.com'; // --- Your websites domain names
 
 
 // --------------------------------------------------------------------

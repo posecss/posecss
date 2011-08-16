@@ -26,6 +26,7 @@ class pose {
 		$this->get_variable_prefix = '@';
 		$this->variable_postfix = '!';
 		$this->function_prefix = '@';
+		$this->inherit_prefix = '@';
 	
 		// get contents of css file
 		if (@file_get_contents($this->file_name())) :
@@ -55,7 +56,9 @@ class pose {
 			$this->plugins();
 			$this->whitespace();
 			$this->functions();
+			$this->inherit();
 			$this->variables();
+			
 			$this->clean();
 			$this->output();
 			return $this->css;
@@ -63,12 +66,14 @@ class pose {
 			$this->variable_override();
 			$this->variables();
 			$this->includes();
+			$this->inherit();
 			$this->plugins();
 			
 			if ($this->browser_filter===true) {$this->browser_filter();}
 			
 			$this->whitespace();
 			$this->functions();
+			
 			$this->variables();
 			$this->clean();
 			$this->output();
@@ -384,6 +389,32 @@ class pose {
 			endif;
 		}
 	} // end variables()
+
+
+	// -------------------------
+	// --- Handle variable = variable ----
+	// -------------------------
+	private function inherit() {
+			
+		preg_match_all("($this->set_variable_prefix.*.{.*)",$this->css,$variable);
+	
+		foreach ($variable[0] as $match) {
+	
+			if (!strpos($match, '(')) :
+				$match = str_replace('}', '', $match);
+				$split = explode('{', $match);
+				$name = str_replace($this->set_variable_prefix, $this->get_variable_prefix, trim($split[0]).$this->variable_postfix);
+				$value = trim($split[1]);
+				
+				$this->css=str_replace($name,$value,$this->css);
+
+			endif;
+		}
+		
+		//exit;	
+
+
+	} // end inherit()
 
 
 	// ---------------------
