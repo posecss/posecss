@@ -1,4 +1,4 @@
-# POSE CSS PRE-PROCESSOR
+## About
 
 Pose is a lightweight php powered css engine that allows you to use variables, functions, includes and more directly in your css files. It can merge multiple stylesheets into one css file and even minify and cache it for you. Pose aims to make your stylesheets faster, smaller, more dynamic and easier to code.
 
