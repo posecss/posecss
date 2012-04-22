@@ -1,40 +1,3 @@
-# Documentation
-
-### [Introduction to Pose](http://github.ubermind.com/jesseweed/posecss/wiki/Introduction-to-Pose)
-+  About
-+  Browser Compatibility
-+  Server Compatibility
-
-
-### [Basic Usage](http://github.ubermind.com/jesseweed/posecss/wiki/Basic-Usage)
-+  Variables
-+  Functions
-+  Includes
-+  Definitions
-
-
-### [Installation + Configuration](http://github.ubermind.com/jesseweed/posecss/wiki/Installation-and-Configuration)
-+  Server Configuration
-+  Installation Options
-+  Configuration Options
-
-### [Plugins](http://github.ubermind.com/jesseweed/posecss/wiki/Plugins)
-+  Reset File
-+  CSS Frameworks
-+  Helpers
-
-### [Optimization Tips](http://github.ubermind.com/jesseweed/posecss/wiki/Optimization-Tips)
-+  Caching
-+  Minification
-+  Save to File
-
-### [Experimental Features](http://github.ubermind.com/jesseweed/posecss/wiki/Experimental-Features)
-+  Browser Filtering
-
-
-#### [Version History](http://github.ubermind.com/jesseweed/posecss/wiki/Version-History)
-
-
 # ABOUT
 Pose is a lightweight php powered css engine that allows you to use variables, functions, includes and more directly in your css files. It can merge multiple stylesheets into one css file and even minify and cache it for you. Pose aims to make your stylesheets faster, smaller, more dynamic and easier to code.
 
@@ -44,7 +7,7 @@ On top of pose's impressive css processing abilities, it also includes a powetfu
 
 # OVERVIEW
 
-## VARIABLES
+### VARIABLES
 If you've ever wished you could just set a value for something once and then use it everywhere in your stylesheets (a color for example), then variables are what you've been wishing for. You can define a value once and have it available throughout your entire stylesheet. And if you ever need to update something, you'll only have to make the change in one place. For more, jump to the variables on the docs page. Here's a quick example...
 
 	/* Define some variables */
@@ -57,7 +20,7 @@ If you've ever wished you could just set a value for something once and then use
 	a {color:@primary_color!;}
 
 
-## FUNCTIONS
+### FUNCTIONS
 Functions in Pose work a lot like like they do in PHP or Javascript. Essentially, a function is a block of code that can be reused throughout your stylesheets. And much like php, you can pass variables to your functions to make them even more modular. Jump to the functions section of the docs.
 
 	/* First, we define a function */
@@ -78,7 +41,7 @@ Functions in Pose work a lot like like they do in PHP or Javascript. Essentially
 	}
 
 
-## PUTTING IT ALL TOGETHER
+### PUTTING IT ALL TOGETHER
 Here's a very quick example that sets up a few variables & functions and puts them into practical use. Everything between the <define> and </define> tags will be our variables & functions. Define tags are completely optional, but anything within them will be excluded from the final output, so they're useful for defining things like variables & functions that you want to use in your stylesheet, but don't actually need to be sent to the browser. These definitions could easily be created in a separate file and included using pose's include function. But, for the sake of simplicity, I'll write everything in this example as one file.
 
 	<define>
@@ -125,10 +88,39 @@ The above code will be sent to the browser like this:
 
 
 
-## DOCUMENTATION
-#### [1. Introduction to Pose](https://github.ubermind.com/jesseweed/posecss/wiki/1.-Introduction-to-Pose)
-#### [2. Basic Usage](https://github.ubermind.com/jesseweed/posecss/wiki/2.-Basic-Usage)
-#### [3. Installation + Configuration](https://github.ubermind.com/jesseweed/posecss/wiki/3.-Installation-and-Configuration)
-#### [4. Plugins](https://github.ubermind.com/jesseweed/posecss/wiki/4.-Plugins)
-#### [5. Optimization Tips](https://github.ubermind.com/jesseweed/posecss/wiki/5.-Optimization-Tips)
-#### [6. Experimental Features](https://github.ubermind.com/jesseweed/posecss/wiki/6.-Experimental-Features)
+
+# Documentation
+
+### [Introduction to Pose](http://github.ubermind.com/jesseweed/posecss/wiki/Introduction-to-Pose)
++  About
++  Browser Compatibility
++  Server Compatibility
+
+
+### [Basic Usage](http://github.ubermind.com/jesseweed/posecss/wiki/Basic-Usage)
++  Variables
++  Functions
++  Includes
++  Definitions
+
+
+### [Installation + Configuration](http://github.ubermind.com/jesseweed/posecss/wiki/Installation-and-Configuration)
++  Server Configuration
++  Installation Options
++  Configuration Options
+
+### [Plugins](http://github.ubermind.com/jesseweed/posecss/wiki/Plugins)
++  Reset File
++  CSS Frameworks
++  Helpers
+
+### [Optimization Tips](http://github.ubermind.com/jesseweed/posecss/wiki/Optimization-Tips)
++  Caching
++  Minification
++  Save to File
+
+### [Experimental Features](http://github.ubermind.com/jesseweed/posecss/wiki/Experimental-Features)
++  Browser Filtering
+
+
+#### [Version History](http://github.ubermind.com/jesseweed/posecss/wiki/Version-History)
