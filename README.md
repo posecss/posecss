@@ -1,5 +1,4 @@
-## About
-
+## ABOUT
 Pose is a lightweight php powered css engine that allows you to use variables, functions, includes and more directly in your css files. It can merge multiple stylesheets into one css file and even minify and cache it for you. Pose aims to make your stylesheets faster, smaller, more dynamic and easier to code.
 
 Pose outputs 100% pure css, and uses standard .css files, so there's no need for proprietary file extensions or anything that wont play nice with your current stylesheets. Installation is a snap as well, simply copy & paste a couple files to your sites css directory and your ready go. Pose is also extremely easy to customize. Most of it's internal settings can be easily accessed & modified from a well commented configuration file.
@@ -85,3 +84,13 @@ The above code will be sent to the browser like this:
 		border-radius: 10px;
 		-moz-border-radius: 10px;
 	}
+
+
+
+## DOCUMENTATION
+#### [1. Introduction to Pose](https://github.com/jesseweed/posecss/wiki/1.-Introduction-to-Pose)
+#### [2. Basic Usage](https://github.com/jesseweed/posecss/wiki/2.-Basic-Usage)
+#### [3. Installation + Configuration](https://github.com/jesseweed/posecss/wiki/3.-Installation-and-Configuration)
+#### [4. Plugins](https://github.com/jesseweed/posecss/wiki/4.-Plugins)
+#### [5. Optimization Tips](https://github.com/jesseweed/posecss/wiki/5.-Optimization-Tips)
+#### [6. Experimental Features](https://github.com/jesseweed/posecss/wiki/6.-Experimental-Features)
