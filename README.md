@@ -88,9 +88,9 @@ The above code will be sent to the browser like this:
 
 
 ## DOCUMENTATION
-#### [1. Introduction to Pose](https://github.com/jesseweed/posecss/wiki/1.-Introduction-to-Pose)
-#### [2. Basic Usage](https://github.com/jesseweed/posecss/wiki/2.-Basic-Usage)
-#### [3. Installation + Configuration](https://github.com/jesseweed/posecss/wiki/3.-Installation-and-Configuration)
-#### [4. Plugins](https://github.com/jesseweed/posecss/wiki/4.-Plugins)
-#### [5. Optimization Tips](https://github.com/jesseweed/posecss/wiki/5.-Optimization-Tips)
-#### [6. Experimental Features](https://github.com/jesseweed/posecss/wiki/6.-Experimental-Features)
+#### [1. Introduction to Pose](https://github.ubermind.com/jesseweed/posecss/wiki/1.-Introduction-to-Pose)
+#### [2. Basic Usage](https://github.ubermind.com/jesseweed/posecss/wiki/2.-Basic-Usage)
+#### [3. Installation + Configuration](https://github.ubermind.com/jesseweed/posecss/wiki/3.-Installation-and-Configuration)
+#### [4. Plugins](https://github.ubermind.com/jesseweed/posecss/wiki/4.-Plugins)
+#### [5. Optimization Tips](https://github.ubermind.com/jesseweed/posecss/wiki/5.-Optimization-Tips)
+#### [6. Experimental Features](https://github.ubermind.com/jesseweed/posecss/wiki/6.-Experimental-Features)
