@@ -8,3 +8,4 @@ _versions/*
 *~
 .DS_Store
 test.css
+*/php_errors.log
