@@ -1,0 +1,29 @@
+[22-Apr-2012 14:05:50] PHP Notice:  Undefined variable: class_posekeeper in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 52
+[22-Apr-2012 14:07:13] PHP Parse error:  parse error in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 50
+[22-Apr-2012 14:07:17] PHP Notice:  Undefined variable: class in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 55
+[22-Apr-2012 14:07:17] PHP Notice:  Undefined variable: class in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 55
+[22-Apr-2012 14:16:37] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Compilation failed: nothing to repeat at offset 0 in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:16:37] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:16:50] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Compilation failed: nothing to repeat at offset 0 in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:16:50] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:17:23] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Compilation failed: nothing to repeat at offset 0 in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:17:23] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:20:58] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: No ending delimiter '#' found in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:20:58] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:21:02] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:21:02] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:21:11] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Unknown modifier ')' in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:21:11] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:21:15] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: No ending delimiter '^' found in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:21:15] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:21:30] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Compilation failed: nothing to repeat at offset 0 in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:21:30] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 73
+[22-Apr-2012 14:24:46] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Compilation failed: nothing to repeat at offset 0 in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 75
+[22-Apr-2012 14:24:46] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 79
+[22-Apr-2012 14:24:50] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Compilation failed: nothing to repeat at offset 0 in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 75
+[22-Apr-2012 14:24:50] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 79
+[22-Apr-2012 14:34:16] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Unknown modifier '|' in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 71
+[22-Apr-2012 14:38:06] PHP Warning:  Invalid argument supplied for foreach() in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 75
+[22-Apr-2012 14:39:19] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 77
+[22-Apr-2012 14:39:19] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 77
+[22-Apr-2012 14:39:19] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Users/jesseweed/Sites/personal/_github/posecss/pose.php on line 77

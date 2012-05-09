@@ -44,6 +44,53 @@ class pose {
 		endif;
 	
 	}
+	
+	function unused() {
+		
+		$classes = array();
+		$classes[] = 'class1';
+		$classes[] = 'class2';
+		$classes[] = 'class3';
+		
+		$ids = array();
+		$ids[] = 'id1';
+		$ids[] = 'id4';
+		
+		foreach ($classes as $class) :
+			$this->css = preg_replace("(.$class.*.{)", '.'.$class."_posekeeper {", $this->css);
+		endforeach;
+		
+		foreach ($ids as $id) :
+			$this->css = preg_replace("(#$id.*.{)", '#'.$id."_posekeeper {", $this->css);
+		endforeach;
+	
+
+	
+		preg_match_all("~(?:^|[\s\}>])((\.[\w-]+)\s*\{[^\}]+\})~",$this->css,$class);
+		preg_match_all("~(?:^|[\s\}>])((\#[\w-]+)\s*\{[^\}]+\})~",$this->css,$id);
+		
+		// Clean classes
+		foreach ($class[0] as $match) {
+			if (!strpos($match, '_posekeeper')) :
+				$this->css=str_replace($match,'',$this->css);
+			else :
+				$match2 = str_replace('_posekeeper', '', $match);
+				$this->css=str_replace($match,$match2,$this->css);
+			endif;
+		}
+		
+		// Clean id's
+		foreach ($id[0] as $match) {
+			if (!strpos($match, '_posekeeper')) :
+				$this->css=str_replace($match,'',$this->css);
+			else :
+				$match2 = str_replace('_posekeeper', '', $match);
+				$this->css=str_replace($match,$match2,$this->css);
+			endif;
+		}
+		
+		return $this->css;
+	}
 
 	function run() {
 		
@@ -630,7 +677,9 @@ class pose {
 
 if ( $file !== NULL ) {	
 
-	echo $pose->run($file);
+	// echo $pose->run($file);
+	
+	echo $pose->unused($file);
 	
 } else {
 	header("Content-type: text/css; charset=$pose_charset");
