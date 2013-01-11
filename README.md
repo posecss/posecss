@@ -91,35 +91,35 @@ The above code will be sent to the browser like this:
 
 # Documentation
 
-### [Introduction to Pose](http://github.com/posecss/posecss/wiki/Introduction-to-Pose)
+### [Introduction to Pose](http://github.com/posecss/posecss/wiki/1.-Introduction-to-Pose)
 +  About
 +  Browser Compatibility
 +  Server Compatibility
 
 
-### [Basic Usage](http://github.com/posecss/posecss/wiki/Basic-Usage)
+### [Basic Usage](http://github.com/posecss/posecss/wiki/2.-Basic-Usage)
 +  Variables
 +  Functions
 +  Includes
 +  Definitions
 
 
-### [Installation + Configuration](http://github.com/posecss/posecss/wiki/Installation-and-Configuration)
+### [Installation + Configuration](http://github.com/posecss/posecss/wiki/3.-Installation-%26-Configuration)
 +  Server Configuration
 +  Installation Options
 +  Configuration Options
 
-### [Plugins](http://github.com/posecss/posecss/wiki/Plugins)
+### [Plugins](http://github.com/posecss/posecss/wiki/4.-Plugins)
 +  Reset File
 +  CSS Frameworks
 +  Helpers
 
-### [Optimization Tips](http://github.com/posecss/posecss/wiki/Optimization-Tips)
+### [Optimization Tips](http://github.com/posecss/posecss/wiki/5.-Optimization-Tips)
 +  Caching
 +  Minification
 +  Save to File
 
-### [Experimental Features](http://github.com/posecss/posecss/wiki/Experimental-Features)
+### [Experimental Features](http://github.com/posecss/posecss/wiki/6.-Experimental-Features)
 +  Browser Filtering
 
 
