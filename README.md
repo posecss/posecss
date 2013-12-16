@@ -124,3 +124,7 @@ The above code will be sent to the browser like this:
 
 
 #### [Version History](http://github.com/posecss/posecss/wiki/Version-History)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/posecss/posecss/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
